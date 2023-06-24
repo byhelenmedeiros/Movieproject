@@ -1,0 +1,78 @@
+.trending {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: center;
+  flex-direction: row;
+}
+
+.poster {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.MuiBadge-root {
+  display: inline-flex;
+  position: relative;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+  top: 0;
+  right: 0;
+  transform: scale(1) translate(50%, -50%);
+  transform-origin: 100% 0%;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #CF7A2C;
+}
+
+.subTitle {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #faebd7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .subTitleDate {
+    margin-left: 10px;
+  }
+  
+
+.voteBadge {
+  position: relative;
+  top: 25px;
+  left: 5px;
+  
+}
+
+.pageTitle{
+  margin-top: 20px;
+  color: #CF7A2C;
+}
+
+.voteBadge{
+  background-color: #CF7A2C;
+}
+h4{
+  color: rgb(169, 169, 169);
+}

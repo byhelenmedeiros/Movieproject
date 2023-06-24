@@ -1,0 +1,10 @@
+.carouselItem {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .carouselItem__img {
+    width: 100%;
+    height: auto;
+  }
+  
