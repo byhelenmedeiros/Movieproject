@@ -27,6 +27,7 @@ function App() {
               <Route path="/movies" component={Movies} />
               <Route path="/series" component={Series} />
               <Route path="/search" component={Search} />
+              <Route path="/SignUpPage" component={SignUpPage} />
             </Switch>
           </Container>
         </div>

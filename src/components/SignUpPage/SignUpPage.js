@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import './SignUpPage.css';
 
 const SignUpPage = () => {
   const [formData, setFormData] = useState({
