@@ -1,15 +1,13 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
-import SignUpPage from '../components/SignUp/SignUpPage';
-
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container custom-navbar">
         <div className="d-flex align-items-center">
-          <a className="navbar-brand logo" href="#">
+          <a className="navbar-brand logo" href="#home">
             <img src="/logo.png" alt="Logo" />
           </a>
           <button
@@ -37,7 +35,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <Link to="/create-account">
+          <Link to="/SignUpPage">
             <button className="btn btn-primary">CRIAR CONTA</button>
           </Link>
         </div>
