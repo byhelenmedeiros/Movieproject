@@ -9,6 +9,8 @@ import Trending from './Pages/Trending/Trending';
 import Search from './Pages/Search/Search';
 import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import SignUpPage from '../components/SignUp/SignUpPage';
+
 
 function App() {
   return (
