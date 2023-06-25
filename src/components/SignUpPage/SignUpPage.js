@@ -56,7 +56,7 @@ const SignUpPage = () => {
         </Form.Group>
 
         <Button variant="primary" type="submit">
-          Criar Perfil/Conta
+          Criar conta
         </Button>
       </Form>
     </div>
